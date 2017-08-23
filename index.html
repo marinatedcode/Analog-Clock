@@ -16,7 +16,7 @@ function updateTime() { // Update the SVG clock graphic to show current time
     minhand.setAttribute("transform", "rotate(" + minangle + ",50,50)");
     hourhand.setAttribute("transform", "rotate(" + hourangle + ",50,50)");
     // Update the clock again in 1 minute
-    setTimeout(updateTime, 500);
+    setTimeout(updateTime, 60000);
 }
 </script>
 <style>
